@@ -3,7 +3,7 @@ import "./qualification.css";
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
-  
+
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -94,12 +94,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Primary Education</h3>
+                <h3 className="qualification__title">Economics (Bachelor's degree)</h3>
                 <span className="qualification__subtitle">
                   Bukhara - University
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2025
+                  <i className="uil uil-calendar-alt"></i> 2023 - ongoing
                 </div>
               </div>
             </div>
